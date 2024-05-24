@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana07-02</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div>
+            <h1>Etiqueta de audio</h1>
+            <audio controls autoplay loop preload="none">
+                <source src="./archivos/mundial.mp3" type="audio/mpeg">
+                Tu navegador no soporta la etiqueta de audio.
+            </audio>
+        </div>
+        <div>
+            <h1>Etiqueta de video</h1>
+            <div class="contenedor__video">
+                <video class="video" src="./archivos/video-mundial.mp4" controls></video>
+            </div>
+        </div>
+        <div>
+            <h1>IFRAME</h1>
+            <div class="contenedor__iframe">
+                <iframe class="iframe"
+                    src="https://maps.google.com/maps?f=q&source=s_q&q=buenos+aires&sll=37.0625,-95.677068&sspn=38.638819,80.859375&t=h&hnear=Buenos+Aires,+Argentina&z=11&ll=-34.603723,-58.381593&output=embed"
+                    frameborder="0">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
